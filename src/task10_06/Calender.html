@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calender</title>
+
+    <script>
+        function calculateDays() {
+            const startDateInput = document.getElementById('startDate').value;
+            const endDateInput = document.getElementById('endDate').value;
+
+            const startDate = new Date(startDateInput);
+            const endDate = new Date(endDateInput);
+
+            if (isNaN(startDate.getTime()) || isNaN(endDate.getTime())) {
+                document.getElementById('result').innerText = 'Enter valid dates';
+                return;
+            }
+
+            const differenceMs = Math.abs(startDate - endDate);
+
+            const daysDifference = Math.ceil(differenceMs / (1000 * 60 * 60 * 24));
+
+            document.getElementById('result').innerText = `Number of days between dates: ${ daysDifference }`;
+        }
+    </script>
+
+</head>
+
+<body>
+    <div class="container-fluid" style="margin-left: 20px;">
+        <h1 style="font-size: 42px;">Calculate days between dates</h1>
+        <p style="font-size: 18px;">Use this tool to quickly Calculate number of days between two dates</p>
+        <h4 style="font-weight: 300; font-size: 24px;">Enter two dates to get the number of days</h4>
+
+        <label for="startDate">From date</label>
+        <input type="date" style="margin-left: 52px; height: 30px; width: 450px;" id="startDate"> <br><br>
+        
+        <label for="To date" class="todate">To date</label>
+        <input type="date" style="margin-left: 70px; height: 30px; width: 450px;" id="endDate"> <br><br>
+
+        <button onclick="calculateDays()" style="background-color: rgb(42, 140, 197); padding: 10px; color: white; margin-left: 120px; border-radius: 8px;border: none;">Today</button>
+        <p id="result" style="background-color: rgb(206, 199, 199); padding: 50px; width: 475px; border: 1px solid gray;"> </p>
+    </div>
+</body>
+
+</html>

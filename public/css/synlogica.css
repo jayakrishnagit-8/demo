@@ -1,0 +1,327 @@
+.headers {
+    background-color: white;
+}
+.form1 {
+    width: 465px;
+    height: 40px;
+    border-radius: 7px;
+    border-width: 1px;
+    border-color: rgb(236, 230, 230);
+}
+.boldt {
+    font-weight: 700;
+    color: black;
+    padding-left: 20px;
+}
+.dropf {
+    position: relative;
+    bottom: 55px;
+    left: 400px;
+    border: none;
+}
+.pos1 {
+    position: relative;
+    bottom: 20px;
+}
+.mainh {
+    background-color: antiquewhite;
+    height: 68px;
+    padding-top: 20px;
+}
+.headimg {
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    position: relative;
+    bottom: 25px;
+    right: 25px;
+}
+.headnav {
+    text-align: right;
+    display: inline-block;
+}
+.nav1 {
+    text-decoration: none;
+    color: #ec3c5f;
+    padding-right: 10px;
+    font-weight: 600;
+}
+.nav1:hover, .nav2:hover, .dropd:hover {
+    background-color: antiquewhite;
+    color: purple;
+    padding: 5px;
+}
+.stys {
+    color: #ec3c5f;
+    font-weight: 700;
+}
+.marq {
+    background-image: url("https://www.technocrazed.com/wp-content/uploads/2015/12/black-wallpaper-to-set-as-background-1.jpg");
+    background-size: cover;
+    height: 50px;
+    background-position: center;
+    color: antiquewhite;
+}
+.headnav2 {
+    padding-top: 22px;
+    padding-bottom: 22px;
+    background-color: antiquewhite;
+}
+.contacts {
+    position: relative;
+    bottom: 30px;
+}
+.nav2 {
+    text-decoration: none;
+    color: #ec3c5f;
+    padding-right: 30px;
+    font-weight: 600;
+}
+.navdrop {
+    text-decoration: none;
+    color: #ec3c5f;
+    padding-right: 30px;
+    font-weight: 600;
+}
+.dropd {
+    position: relative;
+    right: 30px;
+    border: none;
+    background-color: antiquewhite;
+    color: #ec3c5f;
+}
+.navdrop:hover, .dropd {
+    position: relative;
+    right: 30px;
+    border: none;
+    background-color: antiquewhite;
+    color: #ec3c5f;
+}
+.container {
+    width: 100%; /* Adjust width as needed */
+    overflow: hidden; /* Enable horizontal scrolling */
+    white-space: nowrap; /* Prevent line breaks */
+}
+.image {
+    width: 100%; /* Each image takes up half of the container width */
+    display: inline-block; /* Display images inline */
+    vertical-align: top; /* Align images at the top */
+}
+.content {
+    position: relative;
+    bottom: 600px;
+    left: 150px;
+}
+.conh {
+    color: white;
+    font-size: 55px;
+    margin-bottom: 20px;
+}
+.conp {
+    color: white;
+    margin-bottom: 30px;
+}
+.conbtn {
+    background-color: rgb(233, 82, 82);
+    padding: 15px;
+    font-size: 18px;
+    color: white;
+    padding-left: 40px;
+    padding-right: 40px;
+    border: none;
+}
+.card1 {
+    position: relative;
+    bottom: 480px;
+    left: 160px;
+    text-align: center;
+}
+.card:hover {
+    background-color: #ec3c5f;
+}
+.card2 {
+    position: relative;
+    bottom: 480px;
+    left: 60px;
+    text-align: center;
+}
+.card3 {
+    position: relative;
+    bottom: 480px;
+    right: 40px;
+    text-align: center;
+    color: white;
+}
+.img1 
+{
+ padding-left:50px;
+}
+.para1
+{
+    color:white;
+    border-style:solid;
+    height:250px;
+    width:350px;
+    border-color:rgb(214, 56, 56);
+    background-color:rgb(214, 56, 56);
+    position:relative;
+    bottom:180px;
+    left:250px;
+    padding:25px;
+}
+.para2
+{
+    text-transform:uppercase;
+    color:rgb(214, 56, 56);
+    margin-top:50px;
+}
+.para3
+{
+    border-left:solid;
+    border-color:rgb(214, 56, 56);
+    margin-left:35px;
+    padding-left:45px;
+}
+.btn1
+{
+    color:white;
+    background-color:rgb(214, 56, 56);
+    border-color:rgb(214, 56, 56);
+    text-transform: uppercase;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:25px;
+    padding-right:25px;
+}
+.para4
+{
+    border-style:solid;
+    width:150px;
+    height:150px;
+    background-color:rgb(214, 56, 56);
+    border-color: rgb(214, 56, 56);
+}
+.section1 {
+    position: relative;
+    bottom: 350px;
+    left: 30px;
+}
+.section2 {
+    position: relative;
+    bottom: 250px;
+    padding-left: 40px;
+}
+.section3 {
+    position: relative;
+    bottom: 220px;
+    padding-left: 40px;
+}
+.bgimg1 {
+    background-image: url("https://synlogica.com/wp-content/uploads/2023/09/business-people-working-together.jpg");
+    background-size: cover;
+}
+.bgimg2 {
+    background-image: url("https://media.assettype.com/freepressjournal/2023-10/baccd8cc-1473-4dd2-9e48-01974b17318d/LS_lead_main_freepik_oct_29.jpg");
+    background-size: cover;
+    height: 500px;
+}
+.bgcol {
+    background-color: red;
+    text-align: center;
+    position: relative;
+    padding-top: 70px;
+}
+.section4 {
+    position: relative;
+    bottom: 110px; 
+}
+.bgimg3 {
+    background-image: url("https://images.pexels.com/photos/19288820/pexels-photo-19288820/free-photo-of-man-hand-on-laptop-with-cookie-coffee-and-plant-around.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-repeat: no-repeat;
+    height: 400px;
+    background-size: cover;
+}
+.para5
+{
+    color:white;
+    background-color:rgb(214, 56, 56);
+    padding:50px;
+    height:600px;
+    margin-left:50px;
+}
+.btn2
+{
+    color:rgb(214, 56, 56);
+    background-color:white;
+    border:none;
+    padding-left:15px;
+    padding-right:15px;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+.para6
+{
+    position:relative;
+    bottom: 30px;
+    left:350px;
+}
+.para5
+{
+    color:white;
+    background-color:rgb(214, 56, 56);
+    padding:50px;
+    height:600px;
+    margin-left:50px;
+}
+.sec2
+{
+    background-color:rgb(36, 34, 51);
+    color:white;
+    position: relative;
+    bottom: 90px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    z-index: 9999;
+}
+
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 9998;
+}
+
+#popup-toggle:checked + .overlay {
+    display: block;
+}
+
+#popup-toggle:checked + .overlay + .popup {
+    display: block;
+}
+
+.close-btn {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    cursor: pointer;
+}

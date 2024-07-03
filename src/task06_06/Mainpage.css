@@ -1,0 +1,352 @@
+.sec1 {
+    background-color: #3b5d50;
+}
+.sec1flex {
+    display: flex;
+}
+.head {
+    margin-top: 30px;
+    padding-left: 100px;
+    color: white;
+}
+.navbar {
+    margin-top: 20px;
+    padding-left: 120px;
+}
+.nav-item {
+    margin-right: 40px;
+    padding-bottom: 10px;
+    border-bottom: 5px solid yellow;
+    text-decoration: none;
+    color: white;
+}
+.nav-item2 {
+    margin-right: 35px;
+    text-decoration: none;
+    color: rgb(182, 173, 173);
+}
+.nav-item2:hover {
+    border-bottom: 5px solid yellow;
+    padding-bottom: 10px;
+}
+.iconitems {
+    display: flex;
+    padding-left: 60px;
+    margin-top: 35px;
+}
+.icnitem {
+    margin-left: 10px;
+    padding-left: 50px;
+    font-size: 22px;
+    color: white;
+}
+.main-head {
+    padding-left: 85px;
+    margin-top: 80px;
+    font-weight: 700;
+    font-size: 44px;
+    color: white;
+}
+.main-para {
+    padding-left: 85px;
+    margin-top: 30px;
+    color: rgb(209, 200, 200);
+    font-size: 15px;
+}
+.sec1flex2 {
+    display: flex;
+}
+.main-btn {
+    margin-left: 85px;
+    border-radius: 30px;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 18px;
+    margin-top: 10px;
+    background-color: rgb(243, 177, 35);
+    border: none;
+}
+.main-btn2 {
+    margin-left: 20px;
+    border-radius: 30px;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 18px;
+    margin-top: 10px;
+    background-color: #3b5d50;
+    border-color: rgb(206, 200, 200);
+    color: white;
+}
+.main-btn2:hover {
+    border-color: white;
+    border-bottom-color: white;
+    border-right-color: white;
+}
+.main-img {
+    padding-left: 50px;
+}
+.sec2 {
+    padding-bottom: 120px;
+    background-color: rgb(245, 238, 253);
+}
+.sec2head {
+    padding-left: 80px;
+    margin-top: 90px;
+    margin-bottom: 40px;
+}
+.sec2para {
+    padding-left: 80px;
+    color: rgb(109, 108, 108);
+    margin-top: 20px;
+    font-size: 12px;
+    margin-bottom: 40px;
+}
+.sec2btn {
+    margin-left: 80px;
+    border-radius: 30px;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 18px;
+    margin-top: 10px;
+    background-color: #2d2e2e;
+    border: none;
+    color: white;
+}
+.sec2img {
+    margin-top: 90px;
+}
+.sec2subh {
+    font-size: 18px;
+    margin-top: 20px;
+    text-align: center;
+    margin-left: -50px;
+}
+.sec2price {
+    text-align: center;
+    margin-left: -50px;
+}
+.sec3 {
+    background-color: rgb(245, 238, 253);
+    padding-bottom: 120px;
+}
+.sec3para {
+    padding-left: 80px;
+    color: rgb(109, 108, 108);
+    margin-top: -20px;
+    font-size: 15px;
+    margin-bottom: 40px;
+}
+.sec3flex {
+    display: flex;
+    padding-left: 80px;
+    margin-bottom: 10px;
+}
+.sec3mar {
+    margin-right: 50px;
+}
+.sec3icon {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+.sec3img {
+    padding-left: 110px;
+    border-radius: 20px;
+    margin-top: 80px;
+}
+.sec4 {
+    padding-top: 120px;
+    background-color: rgb(245, 238, 253);
+    display: flex;
+    padding-bottom: 120px;
+}
+.sec4div {
+    padding-left: 80px;
+    display: flex;
+}
+.sec4img2 {
+    position: relative;
+    border-radius: 10px;
+    padding-left: 20px;
+}
+.sec4img3 {
+    position: relative;
+    top: 220px;
+    right: 300px;
+    border-radius: 20px;
+}
+.sec4para {
+    color: rgb(109, 108, 108);
+    font-size: 15px;
+    padding-right: 20px;
+}
+.sec4flex {
+    display: flex;
+}
+.sec4btn{
+    border-radius: 30px;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 18px;
+    margin-top: 10px;
+    background-color: #2d2e2e;
+    border: none;
+    color: white;
+}
+.sec5 {
+    padding-top: 100px;
+    background-color: rgb(245, 238, 253);
+    display: flex;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 120px;
+}
+.sec5div {
+    display: flex;
+}
+.sec5para {
+    color: rgb(109, 108, 108);
+    margin-top: -10px;
+}
+.sec5a {
+    margin-top: -10px;
+}
+.sec5a1 {
+    text-decoration: none;
+    color: rgb(53, 52, 52);
+}
+.sec6 {
+    padding-top: 50px;
+    background-color: rgb(245, 238, 253);
+    padding-bottom: 120px;
+    text-align: center;
+}
+.sec6para {
+    font-size: 20px;
+    padding-top: 20px;
+    color: rgb(109, 108, 108);
+}
+.sec6img {
+    border-radius: 100px;
+    background-color: rgb(109, 108, 108);
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.sec6para2 {
+    color: rgb(109, 108, 108);
+    margin-top: -15px;
+}
+.sec7 {
+    padding-top: 50px;
+    background-color: rgb(245, 238, 253);
+    padding-bottom: 60px;
+}
+.sec7head {
+    padding-left: 80px;
+}
+.sec7hyp {
+    color: black;
+    float: right;
+    padding-right: 80px;
+}
+.sec8 {
+    background-color: rgb(245, 238, 253);
+    display: flex;
+    padding-bottom: 180px;
+}
+.card1 {
+    padding-left: 80px;
+    border: none;
+}
+.card2 {
+    padding-left: 50px;
+    border: none;
+}
+.card3 {
+    padding-left: 20px;
+    border: none;
+}
+.cardhead {
+    font-size: 18px;
+}
+.sec9 {
+    padding-top: 80px;
+}
+.sec9icon {
+    font-size: 20px;
+    padding-left: 80px;
+    padding-bottom: 10px;
+}
+.sec9inp {
+    padding-left: 80px;
+}
+.sec9inp1 {
+    height: 50px;
+    width:200px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+.sec9img {
+    margin-top: -190px;
+    margin-left: 90px;
+}
+.sec10 {
+    padding-bottom: 70px;
+}
+.sec10h {
+    padding-left: 80px;
+    padding-bottom: 10px;
+}
+.sec10para {
+    color: rgb(109, 108, 108);
+    padding-left: 80px;
+}
+.sec10icon {
+    padding-left: 80px;
+    display: flex;
+    padding-top: 10px;
+}
+.sec10icon2 {
+    margin-right: 20px;
+    background-color: rgb(212, 211, 208);
+    padding: 10px;
+    padding-left: 17px;
+    padding-right: 17px;
+    border-radius: 100px;
+}
+.sec10nav {
+    padding-top: 60px;
+    padding-left: 80px;
+    margin-right: -50px;
+}
+.hrline {
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.sec11 {
+    padding-bottom: 80px;
+}
+.sec11para {
+    padding-left: 90px;
+    color: rgb(109, 108, 108);
+}
+.sec11para2 {
+    float: right;
+    padding-left: 280px;
+}
+.sec11span {
+    padding-left: 40px;
+}
+
+/* Shop html css */
+
+.secshop {
+    display: flex;
+    padding: 30px;
+    padding-right: 30px;
+    margin-bottom: 30px;
+}

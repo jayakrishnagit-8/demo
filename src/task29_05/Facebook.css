@@ -1,0 +1,73 @@
+.main {
+    display: flex;
+    height: 100vh;
+    background-color: rgb(233, 240, 241);
+}
+.column1
+{
+    margin-top: 100px;
+    padding: 50px;
+    padding-left: 10%;
+}
+.para {
+    font-size: 28px;
+    margin-top: -30px;
+}
+
+.column2{
+    margin-top: 100px;
+    padding: 10px;
+    margin-left: 10%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px black;
+    width: 400px;
+    padding: 20px;
+    border: 1px solid rgb(228, 227, 223);
+    border-radius: 20px;
+}
+.inp
+{
+    width: 375px;
+    height: 30px;
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid rgb(221, 213, 213);
+    font-size: 16px;
+}
+.inp:hover {
+    border: 1px solid blue;
+}
+.btncss
+{
+    width: 400px;
+    height: 50px;
+    color: white;
+    background-color: rgb(5, 109, 245);
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.hlink {
+    text-align: center;
+    padding-left: 130px;
+    text-decoration: none;
+    color: rgb(5, 109, 245);
+}
+.center
+{
+    width: 500px;
+    margin-left: 5%;
+}
+.btn2
+{
+    background-color: rgb(19, 173, 19);
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 110px;
+    color: white;
+    border: none;
+    font-size: 18px;
+    margin-top: 20px;
+}

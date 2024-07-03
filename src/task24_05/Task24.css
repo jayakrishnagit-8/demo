@@ -1,0 +1,72 @@
+.headnav {
+    display: flex;
+    background-color: rgb(250, 249, 249);
+  }
+  .qcss {
+    font-size: 42px;
+    font-weight: 350;
+    color: rgb(7, 7, 88);
+  }
+  .mainhead {
+    padding-left: 250%;
+    color: rgb(11, 11, 124);
+    font-weight: 550;
+  }
+  .navb {
+    padding-left: 170%;
+    padding-top: 35px;
+  }
+  .navitems {
+    padding-right: 30px;
+    text-decoration: none;
+    color: rgb(11, 11, 124);
+    font-weight: 600;
+  }
+  .navpage {
+    text-decoration: none;
+    padding-right: 2px;
+    color: rgb(11, 11, 124);
+    font-weight: 600;
+  }
+  .sec1 {
+    display: flex;
+  }
+  .imgcss {
+    border-radius: 20px;
+    padding-top: 90px;
+    padding-left: 50px;
+  }
+  .sec1css {
+    padding-top: 220px;
+    padding-left: 220px;
+    text-align: left;
+  }
+  .head1 {
+    color: rgb(39, 39, 138);
+    font-size: 42px;
+  }
+  .para1 {
+    color: rgb(98, 98, 143);
+  }
+  .btn1 {
+    background-color: rgb(4, 4, 250);
+    border-radius: 20px;
+    padding: 12px;
+    border: none;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 20px;
+    font-weight: 600;
+  }
+  .btn2 {
+    background-color: rgb(230, 226, 226);
+    border-radius: 20px;
+    padding: 12px;
+    border: none;
+    margin-left: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 20px;
+    font-weight: 600;
+  }

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convert</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        function sentenceCase() {
+            var chngtext = document.getElementById("chngtxt").value;
+            document.getElementById("out").value = chngtext;
+        }
+        function rep(){
+            var a = document.getElementById("chngtxt").value;
+            var chngtext =  document.getElementById("repl").value;
+            var b =  document.getElementById("with").value;
+            let result = a.replace(chngtext,b);
+            document.getElementById("out").value = result;
+        }
+
+    </script>
+</head>
+<body>
+    <div class="container-fluid">
+        <form onsubmit="event.preventDefault()">
+          <div>
+            <h1>1.Input Text to Edit</h1>
+          </div>
+        <textarea class="ms-2 mt-5" id="chngtxt" oninput="len()" onkeypress="sentenceCase()" placeholder="Type or paste your content here" style="width: 80%; height: 28vh; border: 1px solid black"></textarea>
+        <div>
+          <h2>
+            2.Text to Replace
+          </h2>
+          <div style="display: flex;">
+            <input type='text' id="repl" onkeypress="rep()" style="width:70%; height:45px"></input>
+            <div style="display: flex;">
+                <button style="padding:10px; border-color: rgb(9, 158, 218); color: rgb(9, 158, 218); height: 45px;">New Line</button>
+                <button style="padding:10px; border-color: rgb(9, 158, 218); color: rgb(9, 158, 218); height: 45px;">Tab</button>
+            </div>
+          </div>
+        </div>
+        <div>
+          <h2>
+            3.Replace with this
+          </h2>
+          <div style="display: flex;">
+            <input type='text' id="with" onkeypress="rep()" style="width:70%; height:45px"></input>
+            <div style="display: flex;">
+                <button style="padding:10px; border-color: rgb(9, 158, 218); color: rgb(9, 158, 218); height: 45px;">New Line</button>
+                <button style="padding:10px; border-color: rgb(9, 158, 218); color: rgb(9, 158, 218); height: 45px;">Tab</button>
+            </div>
+          </div>
+        </div>
+        <h2>
+          4.Output text
+        </h2>
+        <textarea id="out" style="width: 80%; height: 28vh; border: 1px solid black"></textarea>
+        <div>
+          <button type="button" class="btna"  data-for=".output"  style="background-color: rgb(224, 217, 217);border-radius: 4px;padding: 8px; border: none;">Copy to clipboard</button>
+          <a href=""><i class="fa fa-trash btna" style="font-size:18px" style="background-color: gray;padding: 6px; border: 1px solid gray;"></i></a>
+          <!-- <button type="button" class="btna" style="background-color: gray;padding: 6px;"></button> -->
+        </div>
+        </form>
+      </div>
+</body>
+</html>
